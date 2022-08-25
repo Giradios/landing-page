@@ -57,14 +57,36 @@ a {
 }
 
 /* CONTENT SECTION */
-.content-container {
-    display: flex;
-    background-color: green;
+.content.title {
+    color: black;
+    text-align: center;
 }
 
-.content.title {
-    color: white;
+.content-container {
+    height: 300px;
+
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    gap: 30px;
 }
+
+.card {
+    max-width: 130px;
+}
+
+.image-box {
+    width: 130px;
+    height: 130px;
+    border: 1px solid red;
+    justify-content: center;
+}
+
+.card-content {
+    text-align: center;
+
+}
+
 
 /* QUOTES SECTION */
 
