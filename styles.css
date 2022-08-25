@@ -118,7 +118,7 @@ a {
 .content-title {
     color: #1f2937;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 700;
 
     display: flex;
     justify-content: center;
@@ -157,9 +157,28 @@ a {
 /* QUOTES SECTION */
 .quotes-container {
     height: 475px;
-    background-color: lightblue;
+    background-color:#e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.quote {
+    width: 780px;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.author {
+    width: 780px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* FOOTER SECTION */
 .footer-container {
